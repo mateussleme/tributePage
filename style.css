@@ -46,9 +46,9 @@ h1{
 #menu #menu-logo{
     background-color: var(--base-red);
     color: var(--base-white);
-    font: 500 1.25rem var(--title-font);
-    padding: .5rem 2rem .5rem 2rem;
-    margin: 0 2rem 0 2rem;
+    font: 500 1rem var(--title-font);
+    padding: .5rem 1rem .5rem 1rem;
+    margin: 0 1rem 0 1rem;
 }
 
 #menu .menu-item{
@@ -60,7 +60,7 @@ h1{
 #home-background{
     background-image: url(https://i.pinimg.com/564x/70/71/8e/70718e11b48e020886dc567669e2b580.jpg);
     background-color: var(--background-black);
-    background-size: 40rem;
+    background-size: cover;
     /* background-position-y: -5rem; */
     height: 100vh;
     z-index: 1;
