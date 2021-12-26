@@ -80,12 +80,13 @@ background-color: var(--background-black);
     top: 0;
 }
 
-#home h1{
+#home #title{
     font: 700 4rem var(--title-font);
     text-align: center;
     color: var(--base-white);
     text-shadow: -2px 2px 0px #8C111B;
-    padding: 10rem 0rem 0rem 0rem;
+    /* padding: 10rem 0rem 0rem 0rem; */
+    margin: 10rem 0 0 0;
     z-index: 3;
 }
 #home p{
