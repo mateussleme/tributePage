@@ -1,9 +1,10 @@
 :root{
-    --base-black: 	hsl(220, 27%, 2%);
+    --base-black: 	hsla(233, 13%, 13%, 1);
     --background-black: hsla(232, 13%, 13%, 0.7);
     --base-white: 	hsl(0, 0%, 95%);
     --darker-white: hsl(0, 0%, 75%);
     --base-red: 	hsl(355, 78%, 31%);
+    --darker-red: 	hsl(355, 78%, 50%);
     --title-font: 'Lora', serif;
     --body-font: 'Lato', sans-serif;
     scroll-behavior: smooth;
@@ -20,6 +21,12 @@ ul{
     margin: 0;
 }
 h1{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+img{
     margin: 0;
 }
 
@@ -51,11 +58,19 @@ h1{
     padding: 1rem 1rem 1rem 1rem;
     margin: 0 1rem 0 1rem;
 }
+#menu #menu-logo:hover{
+    color: var(--darker-red);
+}
 
 #menu .menu-item{
     font: 500 1rem var(--body-font);
     color: var(--base-white);
     padding: 1rem 0rem 1rem 0rem;
+}
+
+#menu .menu-item:hover{
+    color: var(--darker-white);
+
 }
 /* ---MAIN--- */
 
@@ -86,19 +101,19 @@ background-color: var(--background-black);
 }
 
 #home #title{
-    font: 700 4rem var(--title-font);
+    font: 700 3rem var(--title-font);
     text-align: center;
     color: var(--base-white);
     text-shadow: -2px 2px 0px #8C111B;
-    /* padding: 10rem 0rem 0rem 0rem; */
+    padding: 0rem .5rem 0rem .5rem;
     margin: 10rem 0 0 0;
     z-index: 3;
 }
 #home p{
-    font: 500 .75rem var(--body-font);
+    font: 500 1rem var(--body-font);
     color: white;
     text-align: center;
-    
+    padding: 0rem 1rem 0rem 1rem;
     z-index: 3;
 }
 
@@ -177,4 +192,55 @@ background-color: var(--background-black);
 #arrow:hover::after{
     background-color:white;
 
+}
+
+/* MAIN */
+
+#biography-sec{
+    width: 100%;
+    background-color: var(--base-black);
+    display: grid;
+}
+#biography-sec h2{
+    font: 700 1.5rem var(--title-font);
+    color: var(--base-white);
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+
+}
+
+#img-div{
+    margin-left: 0;
+    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2rem 0 2rem;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+#img-caption{
+    font: 300 1rem var(--body-font);
+    color: var(--base-white);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#biography-sec p{
+    font: 500 1rem var(--body-font);
+    padding: 0 2rem 0 2rem;
+    color: var(--base-white);
+    text-align: justify;
+
+}
+#biography-sec a{
+    text-decoration: underline;
+    color: var(--base-white);
+}
+
+#biography-sec a:hover{
+    color: var(--darker-white);
 }
