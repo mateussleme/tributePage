@@ -42,6 +42,7 @@ img{
     display: flex; 
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 12px rgba(160, 160, 160, 0.1);
 }
 #menu ul li{
     display: inline-block;
@@ -59,7 +60,7 @@ img{
     margin: 0 1rem 0 1rem;
 }
 #menu #menu-logo:hover{
-    color: var(--darker-red);
+    text-decoration: underline;
 }
 
 #menu .menu-item{
@@ -69,7 +70,7 @@ img{
 }
 
 #menu .menu-item:hover{
-    color: var(--darker-white);
+    text-decoration: underline;
 
 }
 /* ---MAIN--- */
@@ -194,6 +195,12 @@ background-color: var(--background-black);
 
 }
 
+#arrow span{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
 /* MAIN */
 
 #biography-sec{
@@ -243,4 +250,8 @@ img{
 
 #biography-sec a:hover{
     color: var(--darker-white);
+}
+
+#tribute-link{
+    margin-bottom: 3rem;
 }
