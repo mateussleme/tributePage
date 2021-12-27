@@ -15,7 +15,13 @@ Essa é uma página de tributo para a cantora Elis Regina, é um dos projetos ne
 
 
 
+### Etapas do projeto
 
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+- [ ] Mobile (em desenvolvimento)
+- [ ] Tablet
+- [ ] Desktop 
 ## Aprendizados
 Construindo essa página eu aprendi sobre: 
 - Acessibilidade
@@ -35,5 +41,15 @@ Email: colares.amd@gmail.com
 
 ## Autores
 
-- [@colaresAmanda](https://www.github.com/colaresAmanda)
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/colaresAmanda">
+        <img src="https://avatars.githubusercontent.com/u/83729891?v=4" width="100px;" alt="Foto da Amanda Colares no GitHub"/><br>
+        <sub>
+          <b>Amanda Colares</b>
+        </sub>
+      </a>
+    </td>
+</table>
 
