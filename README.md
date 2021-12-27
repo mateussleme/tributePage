@@ -7,7 +7,7 @@ Essa é uma página de tributo para a cantora Elis Regina, é um dos projetos ne
 ## Demonstração
 ![Elis Regina tribute page design](https://i.pinimg.com/564x/51/60/ec/5160ec0dbcbff3f417959280b1d12e1d.jpg)
 
-[Clique aqui para acessar o design no figma](https://www.figma.com/file/CcVjyp6nxd9mxppNmqn3F1/tribute-page?node-id=0%3A1)
+[Clique aqui para acessar o design no figma](https://www.figma.com/community/file/1057115586983557581/Elis-Regina-tribute-page)
 ## Ferramentas utlizadas
 <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
