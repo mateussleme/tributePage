@@ -30,7 +30,7 @@ img{
     margin: 0;
 }
 
-/* STYLE */
+
 /* ---HEADER--- */
 #header{
     background-color: var(--base-black);
@@ -53,7 +53,7 @@ img{
 }
 
 #menu #menu-logo{
-    background-color: var(--base-red);
+    
     color: var(--base-white);
     font: 500 1rem var(--title-font);
     padding: 1rem 1rem 1rem 1rem;
@@ -203,12 +203,13 @@ background-color: var(--background-black);
 
 /* MAIN */
 
-#biography-sec{
+#biography-sec,
+#discography-sec{
     width: 100%;
     background-color: var(--base-black);
     display: grid;
 }
-#biography-sec h2{
+.subtitle{
     font: 700 1.5rem var(--title-font);
     color: var(--base-white);
     text-align: center;
@@ -254,4 +255,108 @@ img{
 
 #tribute-link{
     margin-bottom: 3rem;
+}
+
+/* ########FOOTER######### */
+footer{
+    background-color: var(--base-red);
+}
+footer p{
+    margin: 0;
+    font-family: var(--body-font);
+    font-weight: 700;
+    color: var(--base-white);
+    padding: 1.5rem 2rem 1.5rem 2rem;
+
+}
+
+@media (min-width: 767px){
+    #biography-sec p{
+        font: 500 1rem var(--body-font);
+        padding: 0 6rem 0 6rem;
+    }
+    #home-background{
+        background-image: url(https://i.pinimg.com/564x/8c/db/ba/8cdbba1b7dade9874ae193ad5613c076.jpg);
+    }
+
+    #home #title{
+        font: 700 5rem var(--title-font);
+    }
+    #home p{
+        font: 500 1.5rem var(--body-font);
+       
+    }
+    .subtitle{
+        font: 700 2rem var(--title-font);
+    }
+    #biography-sec p{
+        font: 500 1.5rem var(--body-font);
+    }
+    #img-caption{
+        font: 300 1.5rem var(--body-font); 
+    }
+
+    footer p{
+        font-size: 1.25rem;
+        padding: 1.5rem 6rem 1.5rem 6rem;
+    }
+}
+
+@media (min-width: 1200px){
+    #biography-sec p{
+        font: 500 1rem var(--body-font);
+        padding: 0 15vw 0 15vw;
+    }
+    #home-background{
+        background-image: url(https://i.pinimg.com/564x/8c/db/ba/8cdbba1b7dade9874ae193ad5613c076.jpg);
+    }
+
+    #home #title{
+        font: 700 6rem var(--title-font);
+        margin: 20rem 0 0 0;
+    }
+    #home p{
+        font: 500 3rem var(--body-font);
+       
+    }
+
+    #arrow{
+        width: 100px;
+        height: 100px;
+        bottom: 4rem;
+    }
+    
+
+
+
+
+    .subtitle{
+        font: 700 3rem var(--title-font);
+    }
+    #biography-sec p{
+        font: 500 2rem var(--body-font);
+    }
+    #img-caption{
+        font: 300 2rem var(--body-font); 
+    }
+
+    footer p{
+        font-size: 1.5rem;
+        padding: 1.5rem 6rem 1.5rem 6rem;
+    }
+
+
+
+    #menu #menu-logo{
+        font: 500 1.5rem var(--title-font);
+    }
+    
+    #menu .menu-item{
+        font: 500 1.5rem var(--body-font);
+    }
+    
+    img{
+        width: 1500px;
+    }
+    
 }
